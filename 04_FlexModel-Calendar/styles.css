@@ -1,0 +1,49 @@
+html{
+    box-sizing: border-box;
+}
+
+
+*, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+.container{
+    margin: 2rem auto;
+    display: flex;
+    max-width: 65vw;
+    border: 1px solid #000;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+span{
+    border: 1px solid black;
+    text-align: center;
+    flex: 1 1 15%;
+}
+
+.week span{
+    padding: 1.5rem 0;
+}
+
+.row{
+    flex: 1 1 50rem;
+}
+
+
+.notes{
+    flex-direction: column;
+    flex-basis: 15rem;
+    align-content: stretch;
+}
+
+.notes span{
+    flex: 1 0 50%;
+    padding: 0.5rem 0;
+}
+
+
+
